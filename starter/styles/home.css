@@ -1,1 +1,17 @@
-
+body {
+      padding: var(--space-3);
+    }
+    article {
+      max-width: var(--measure);
+      margin-inline: auto;
+      padding: var(--space-2) var(--space-3);
+      border-inline-start: var(--rule);
+      background: var(--panel);
+    }
+    section {
+      margin-block: var(--space-4);
+    }
+    section img {
+      display: block;
+      margin-block: var(--space-2);
+    }
