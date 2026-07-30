@@ -1,0 +1,14 @@
+@media (prefers-reduced-motion: no-preference) {
+  #fresh-thumb {
+    view-transition-name: cheese-fresh;
+  }
+  #soft-thumb {
+    view-transition-name: cheese-soft;
+  }
+  #blue-thumb {
+    view-transition-name: cheese-blue;
+  }
+  #hard-thumb {
+    view-transition-name: cheese-hard;
+  }
+}
