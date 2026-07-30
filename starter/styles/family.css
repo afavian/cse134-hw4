@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+  .hero-image {
+    view-transition-name: var(--family-name);
+  }
+}
 body {
 display: grid;
 grid-template-areas:
