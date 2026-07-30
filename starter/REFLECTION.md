@@ -1,0 +1,6 @@
+# Reflection - Cheese Society 
+While building the Cheese Society website, I repeated a lot of the same code by hand. The biggest example was the header, navigation bar, and footer. Every page needed the same structure, so I had to copy and update the same sections across the homepage, guide pages, family pages, about page, join page, and 404 page. I also repeated similar CSS patterns for different pages because each page has a specific layout requirement, such as grid, flexbox, float, or normal flow. 
+
+One problem I had was the structure. When pages were moved into the guide folder, some file paths stopped working. Navigation links also needed to be updated because links like Home, About, and Join were in different locations depending on the page. Also, trying to figure out the navigation system for the family pages was a bit hard to create almost like a cycle. 
+
+If I could use a tool to generate parts of this website I would like to create reusable components for common sections like the header, navigation menu, and footer. Instead of copying the same code into every page, I could update one component and have the changes appear everywhere. It would save a lot of time and limit errors.  
