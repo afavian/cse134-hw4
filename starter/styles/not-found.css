@@ -1,1 +1,18 @@
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: var(--space-3);
+}
+main {
+  max-width: 28rem;
+  padding: var(--space-3);
+  text-align: center;
+  border: var(--border);
+  background: var(--panel);
+}
+img {
+  width: 12rem;
+  margin-block-end: var(--space-2);
+}
